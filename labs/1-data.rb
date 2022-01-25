@@ -20,3 +20,10 @@
 # "i would like " + 5 + " tacos"
 # To rectify this, you can convert the number into a string
 # "i would like #{5} tacos"
+
+dice_1 = rand(1..6)
+dice_2 = rand(1..6)
+
+puts "Dice 1 equals to #{dice_1}"
+puts "Dice 2 equals to #{dice_2}"
+puts "Sum of dice equals to #{dice_1 + dice_2}"
